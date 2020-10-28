@@ -1,0 +1,5 @@
+# Block incoming packets
+block in on eth0 proto tcp from 1.1.0.0/16 port 80 to 2.2.2.2/32 port 50000
+
+# Block outgoing packets
+block out on eth0 proto tcp from 2.2.2.2/32 port any to 1.1.0.0/16 port 80
