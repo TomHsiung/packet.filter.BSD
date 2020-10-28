@@ -9,3 +9,6 @@ The native firewall of BSD-based system
 2) `pfctl -e` command enables packet filter.
 3) `pfctl -d` command disables packet filter.
 4) `pfctl -s -i eth0` command list present fliter packet rules for interface eth0.
+
+# Miscs
+1) Usually the configuration file of packet filter locates at `/etc/pf.conf`.
