@@ -11,5 +11,13 @@ The native firewall of BSD-based system
 4) `pfctl -sr` command list present fliter packet rules for interface eth0.
 5) `pfctl -si` command shows traffic statistics.
 
+# OpenBSD syntax
+6) `pfctl -f  /etc/pf.conf`	Load the pf.conf file
+7) `pfctl -nf /etc/pf.conf`	Parse the file, but don't load it
+8) `pfctl -sr`		Show the current ruleset
+9) `pfctl -ss`		Show the current state table
+10) `pfctl -si`		Show filter stats and counters
+11) `pfctl -sa`		# Show everything it can show
+
 # Miscs
 1) Usually the configuration file of packet filter locates at `/etc/pf.conf`.
